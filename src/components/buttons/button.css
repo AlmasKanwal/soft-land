@@ -1,0 +1,18 @@
+.bg-trans {
+    background-color: #ffffff3a;
+    color: #ffffff;
+    padding: 5px 25px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.bg-trans:hover{
+    background-color: #559bcc;
+    transition: 2s ease;
+}
+
+.bg-about{
+    background-color: #559bcc;
+    padding: 10px 25px;
+}

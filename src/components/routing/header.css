@@ -1,5 +1,10 @@
 .navbar{
-    background-color: #142e6c;
+    /* After scroll color */
+    /* background-color: #142e6c;  */
+    /* #007aff */
+
+    /* Before Scroll */
+    background-color: #172f64;
     padding: 15px;
     color: white;
 }
@@ -7,6 +12,7 @@
 .navbar .navbar-brand{
     font-size: 30px;
     color: white;
+    font-weight: 700;
     font-family: "Raleway", sans-serif;
 }
 

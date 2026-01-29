@@ -1,0 +1,172 @@
+/* ========== Home Section Start ========== */
+.home-section {
+    width: 100%;
+    background-image: url("../assets/hero-machine-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+}
+
+.home-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #062468;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+.home-section>* {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.left-container h2 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.left-container p {
+    color: #cccbcb;
+    font-size: 20px;
+}
+
+.left-container .hero-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.right-container {
+    margin-left: 150px;
+}
+
+.right-container img {
+    width: 250px;
+}
+
+.right-container .image-back {
+    position: relative;
+}
+
+.right-container .image-front {
+    position: absolute;
+    right: 30px;
+    top: 200px;
+}
+
+@media only screen and (max-width: 1275px) {
+    .hero-container {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 1223px) {
+    .right-container .image-front {
+        right: 80px;
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    .left-container h2 {
+        font-size: 40px;
+    }
+
+    .left-container p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .right-container {
+        margin-left: 0;
+    }
+
+    .right-container .image-front {
+        position: absolute;
+        right: 200px;
+        top: 400px;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    .right-container {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .right-container .image-front {
+        right: 150px;
+        top: 450px;
+    }
+}
+
+@media only screen and (max-width: 464px) {
+    .right-container .image-front {
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .left-container .hero-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-container img {
+        width: 200px;
+        height: auto;
+    }
+
+    .left-container h2 {
+        font-size: 32px;
+    }
+
+
+    .right-container .image-front {
+        right: 60px;
+        top: 480px;
+    }
+}
+
+/* ========== Home Section End ========== */
+
+
+/* ========== About Section Start ========== */
+.about-section{
+    height: 100vh;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========== About Section End ========== */

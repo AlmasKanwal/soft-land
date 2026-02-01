@@ -155,8 +155,113 @@
 
 /* ========== About Section Start ========== */
 .about-section{
-    height: 100vh;
-    padding: 40px 0;
+    padding:40px 0;
+}
+
+.about-section .about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-section .about-btn{
+    color: #5599bc;
+    background-color: #edf9ff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.about-section .left-container{
+    width: 100%;
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+    color: #2d465e;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.about-section .left-container p{
+    color: #212529;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 770px){
+.about-section .about-container{
+    flex-direction: column;
+    gap: 40px;
+}
+}
+
+.about-section-2{
+    padding: 60px 10px;
+}
+
+.about-section-3{
+    padding: 60px 10px;
+}
+
+.about-section-3 .about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-section-3 img{
+    width: 575px;
+}
+
+@media only screen and (max-width: 635px){
+.about-section-3 img{
+    width: 100%;
+}
+
+.about-section-3{
+    padding: 40px 10px;
+}
+
+}
+
+/* ========== About Section End ========== */
+
+
+/* ========== For All Headings Start ========== */
+.headings{
+    margin-bottom: 50px;
+}
+
+.headings h3{
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    color: #2d465e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headings p{
+    color: #212529;
+    font-size: 16px;
+    text-align: center;
+}
+/* ========== For All Headings End ========== */
+
+
+/* ========== Features Section Start ========== */
+.features-section{
+    padding: 40px 10px;
+}
+
+.features-section .features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -164,9 +269,4 @@
 
 
 
-
-
-
-
-
-/* ========== About Section End ========== */
+/* ========== Features Section End ========== */

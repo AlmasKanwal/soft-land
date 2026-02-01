@@ -1,6 +1,7 @@
 import './App.css';
 import Main from './components/routing/Main';
 import About from './pages/About';
+import Features from './pages/Features';
 import Home from './pages/Home';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Main />
     <Home />
     <About />
+    <Features />
 
     </>
   );

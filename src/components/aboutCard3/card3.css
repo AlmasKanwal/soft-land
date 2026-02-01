@@ -1,0 +1,40 @@
+.about-3{
+    align-items: center;
+    justify-content: center;
+}
+
+.about-3 .card{
+    background-color: #f3f0f0;
+    padding: 40px 15px;
+}
+
+.card .card-title{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #2d465e;
+    font-weight: bold;
+    text-align:start;
+}
+
+.card .card-text{
+    color: #212529;
+    font-size: 15px;
+}
+
+.card .id{
+    color: #559bcc;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 770px){
+.about-3{
+    flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width: 635px){
+.about-3{
+    flex-wrap: wrap;
+}
+}

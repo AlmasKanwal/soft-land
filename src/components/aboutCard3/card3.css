@@ -8,7 +8,7 @@
     padding: 40px 15px;
 }
 
-.card .card-title{
+.about-3 .card .card-title{
     font-size: 24px;
     font-family: "Raleway", sans-serif;
     color: #2d465e;
@@ -16,15 +16,27 @@
     text-align:start;
 }
 
-.card .card-text{
+.about-3 .card .card-text{
     color: #212529;
     font-size: 15px;
 }
 
-.card .id{
+.about-3 .card .id{
     color: #559bcc;
     font-size: 24px;
     font-weight: bold;
+}
+
+.about-3 .card:hover{
+    background-color: #559bcc;
+}
+
+.about-3 .card:hover .card-text{
+    color: #ffffff;
+}
+
+.about-3 .card:hover .card-title{
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 770px){

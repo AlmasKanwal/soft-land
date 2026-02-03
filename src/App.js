@@ -1,8 +1,12 @@
 import './App.css';
 import Main from './components/routing/Main';
 import About from './pages/About';
+import Faq from './pages/Faq';
 import Features from './pages/Features';
+import Gallery from './pages/Gallery';
 import Home from './pages/Home';
+import Pricing from './pages/Pricing';
+import Testimonials from './pages/Testimonials';
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
     <Home />
     <About />
     <Features />
+    <Gallery />
+    <Testimonials />
+    <Pricing />
+    <Faq />
 
     </>
   );

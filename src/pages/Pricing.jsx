@@ -2,7 +2,7 @@
 const Pricing = () => {
     return (
         <>
-            <div className="pricing-section">
+            <div className="pricing-section" id="pricing">
                 <div className="container-xxl">
                     <div className="headings">
                         <h3>Pricing</h3>

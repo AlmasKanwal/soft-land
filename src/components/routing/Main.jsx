@@ -9,6 +9,7 @@ import Contact from "../../pages/Contact"
 const Main = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
+      <>
       <Route path="/" element={<Layout />}>
         <Route path="/#home" element={<Home />} />
         <Route path="/#about" element={<About />} />
@@ -16,6 +17,8 @@ const Main = () => {
         <Route path="/#pricing" element={<Pricing />} />
         <Route path="/#contact" element={<Contact />} />
       </Route>
+      </>
+      
     )
   );
 

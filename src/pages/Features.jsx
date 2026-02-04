@@ -7,7 +7,7 @@ import Pic4 from "../assets/features-4.png"
 const Features = () => {
   return (
     <>
-      <div className="features-section">
+      <div className="features-section" id='features'>
         <div className="container-xxl">
           <div className="headings">
             <h3>Features</h3>

@@ -7,7 +7,7 @@ import About3 from './About3'
 const About = () => {
   return (
     <>
-      <div className="about-section">
+      <div className="about-section" id='about'>
         <div className="container-xxl">
           <div className="about-container">
             <div className="left-container">

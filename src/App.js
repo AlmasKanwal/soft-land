@@ -1,8 +1,10 @@
 import './App.css';
 import Main from './components/routing/Main';
 import About from './pages/About';
+import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Features from './pages/Features';
+import Footer from './pages/Footer';
 import Gallery from './pages/Gallery';
 import Home from './pages/Home';
 import Pricing from './pages/Pricing';
@@ -11,7 +13,7 @@ import Testimonials from './pages/Testimonials';
 function App() {
   return (
     <>
-    {/* Header Maim */}
+    {/* Header Main */}
     <Main />
     <Home />
     <About />
@@ -20,6 +22,8 @@ function App() {
     <Testimonials />
     <Pricing />
     <Faq />
+    <Contact />
+    <Footer />
 
     </>
   );

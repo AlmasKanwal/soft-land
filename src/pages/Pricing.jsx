@@ -34,8 +34,8 @@ const Pricing = () => {
                                     <p><i class="bi bi-check"></i> Lorem ipsum dolor sit amet.</p>
                                     <p><i class="bi bi-check"></i> Lorem ipsum dolor sit amet.</p>
                                     <p><i class="bi bi-check"></i> Lorem ipsum dolor sit amet.</p>
-                                    <p><i class="bi bi-x"></i> Lorem ipsum dolor sit amet.</p>
-                                    <p><i class="bi bi-x"></i> Lorem ipsum dolor sit amet.</p>
+                                    <p><i class="bi bi-x"></i> <s>Lorem ipsum dolor sit amet.</s></p>
+                                    <p><i class="bi bi-x"></i> <s>Lorem ipsum dolor sit amet.</s></p>
                                 </div>
 
                                 <div className="btn">

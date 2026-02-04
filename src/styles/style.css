@@ -162,7 +162,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -190,6 +190,10 @@ h3 {
 .about-section .left-container p {
     color: #212529;
     font-size: 16px;
+}
+
+.about-section .right-container{
+    margin: 0;
 }
 
 @media only screen and (max-width: 770px) {
@@ -700,109 +704,288 @@ h3 {
     }
 
     .pricing-container .btn button {
-    padding: 12px 40px;
-    font-size: 14px;
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+
+    .pricing-container .ul .bi {
+        font-size: 18px;
+    }
+
+    .pricing-container .ul p {
+        font-size: 14px;
+    }
 }
 
-.pricing-container .ul .bi {
-    font-size: 18px;
-}
-
-.pricing-container .ul p {
-    font-size: 14px;
-}
-}
 /* ========== Pricing Section End ========== */
 
 
 /* ========== FAQ Section Start ========== */
-.faq-section{
+.faq-section {
     padding: 60px 10px;
 }
 
 .faq-section details {
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  overflow: hidden;
-  background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background: #fff;
 }
 
 .faq-section summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 24px;
-  cursor: pointer;
-  list-style: none;
-  font-weight: 500;
-  color: #495057;
-  transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 500;
+    color: #495057;
+    transition: all 0.3s ease;
 }
 
 .faq-section summary::-webkit-details-marker {
-  display: none;
-}
-
-.faq-section summary::after {
-  content: ">";
-  font-size: 18px;
-  color: #6c757d;
-  transition: all 0.3s ease;
+    display: none;
 }
 
 .faq-section details[open] summary {
-  color: #5599bc;
-  background-color: #f8f9fa;
-}
-
-.faq-section details[open] summary::after {
-  content: "v";
-  color: #5599bc;
-  transform: rotate(180deg);
+    color: #5599bc;
+    background-color: #f8f9fa;
 }
 
 .faq-section .faq-content {
-  padding: 0 24px;
-  color: #212529;
-  line-height: 1.6;
-  background-color: #f8f9fa;
-  padding-bottom: 20px;
+    padding: 0 24px;
+    color: #212529;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    padding-bottom: 20px;
 }
 
-/* Animation for content */
 .faq-section details {
-  transition: height 0.3s ease;
+    transition: height 0.3s ease;
 }
 
 .faq-section details[open] {
-  height: auto;
+    height: auto;
 }
 
+.faq-section .icon {
+    display: flex;
+    align-items: center;
+}
 
+.faq-section .down {
+    display: none;
+}
 
+.faq-section .right {
+    display: inline-block;
+}
 
+.faq-section details[open] .right {
+    display: none;
+}
 
+.faq-section details[open] .down {
+    display: inline-block;
+    color: #5599bc;
+}
 
-
-
-
-
-
-
+.faq-section details[open] summary {
+    color: #5599bc;
+    background-color: #f8f9fa;
+}
 
 /* ========== FAQ Section Start ========== */
 
-.headings h3 {
-    font-size: 32px;
+
+/* ========== Contact Start ========== */
+.contact-section {
+    padding: 40px 10px 55px 10px;
+}
+
+.contact-section .contact-container {
+    display: flex;
+    gap: 90px;
+}
+
+.contact-section .contact-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-section .adress h3 {
+    font-size: 18px;
     font-family: "Raleway", sans-serif;
     color: #2d465e;
     font-weight: bold;
-    text-align: center;
 }
 
-.headings p {
+.contact-section .adress p {
     color: #212529;
-    font-size: 16px;
-    text-align: center;
+    font-size: 14px;
 }
+
+.contact-section .iconCont {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #edf9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-section .iconCont i {
+    color: #79bcfe;
+    font-size: 20px;
+}
+
+.contact-section .iconCont:hover {
+    background-color: #559bcc;
+}
+
+.contact-section .iconCont:hover i {
+    color: #ffffff;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section form .form-data {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact-section .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section .btns button {
+    background-color: #559bcc;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+
+.contact-section .btns button:hover {
+    background-color: #65b6f0;
+    transition: 2s ease;
+}
+
+.contact-section form {
+    flex: 1;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-section form input:focus,
+.contact-section form textarea:focus {
+    border-color: #559bcc;
+}
+
+.contact-section form .form-data {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-section form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+@media (max-width: 992px) {
+    .contact-section .contact-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-section form .form-data {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-section {
+        padding: 30px 15px;
+    }
+
+    .contact-section .btns button {
+        width: 100%;
+    }
+}
+
+/* ========== Contact End ========== */
+
+
+/* ========== Footer Start ========== */
+footer{
+padding: 40px 10px;
+background-color: #142e6c;
+color: #ffffff;
+text-align: center;
+}
+
+footer h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .iconCont {
+    width: 35px;
+    height: 35px;
+    padding: 15px;
+    background-color: #559bcc;
+}
+
+footer .iconCont i {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer .iconCont:hover {
+    background-color: #63b2ea;
+}
+
+footer .owner{
+    font-size: 13px;
+}
+
+footer a{
+    color: #559bcc;
+    text-decoration: none;
+}
+/* ========== Footer Start ========== */

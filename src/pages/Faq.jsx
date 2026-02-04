@@ -38,14 +38,22 @@ const Faq = () => {
                         </p>
                     </div>
 
-                    {
-                        faqs?.map((faq, i) => (
-                            <details key={i}>
-                                <summary>{faq.question}</summary>
-                                <div class="faq-content">{faq.answer}</div>
-                            </details>
-                        ))
-                    }
+                    {faqs.map((faq, i) => (
+                        <details key={i} className="faq-item">
+                            <summary>
+                                <span>{faq.question}</span>
+
+                                <span className="icon">
+                                    <i className="fa-solid fa-angle-right right"></i>
+                                    <i className="fa-solid fa-angle-down down"></i>
+                                </span>
+                            </summary>
+
+                            <div className="faq-content">{faq.answer}</div>
+                        </details>
+                    ))}
+
+
 
                 </div>
             </div>

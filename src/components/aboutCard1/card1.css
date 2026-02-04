@@ -3,8 +3,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     align-items: center;
-    /* justify-items: center;
-    align-content: center; */
 }
 
 .cardsContainer .card{

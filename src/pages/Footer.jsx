@@ -19,7 +19,7 @@ const Footer = () => {
           <hr />
 
           <p>Copyright SoftLand All Rights Reserved</p>
-          <p className='owner'>Designed by BootstrapMade <a href='/#home'>AlmasKanwal</a></p>
+          <p className='owner'>Designed by BootstrapMade <a href='/'>AlmasKanwal</a></p>
         </div>
       </footer>
     </>

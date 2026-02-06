@@ -237,7 +237,7 @@ h3 {
 .scroll-to-top-btn {
   position: fixed;
   bottom: 30px;
-  right: 20px;
+  right: 15px;
   width: 40px;
   height: 40px;
   background-color: #559bcc;
@@ -280,17 +280,6 @@ h3 {
 
 .scroll-to-top-btn i {
   color: white;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .scroll-to-top-btn {
-    bottom: 20px;
-    right: 20px;
-    width: 45px;
-    height: 45px;
-    font-size: 18px;
-  }
 }
 
 /* ========== About Section End ========== */

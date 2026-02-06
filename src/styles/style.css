@@ -233,6 +233,66 @@ h3 {
 
 }
 
+/* Top Button */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #559bcc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.scroll-to-top-btn .fa-arrow-up{
+    font-size: 14px;
+}
+
+.about-section .scroll-to-top-btn {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #65b6f0;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.6);
+  color: white;
+}
+
+.scroll-to-top-btn:active {
+  transform: translateY(-2px);
+}
+
+.scroll-to-top-btn i {
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scroll-to-top-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
 /* ========== About Section End ========== */
 
 
